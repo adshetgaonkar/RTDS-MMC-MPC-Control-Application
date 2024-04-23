@@ -1,0 +1,8 @@
+float temp_float;
+string temp_string;
+
+fprintf(stdmsg, "Initialization of RTDS simulation");
+
+ListenOnPort(4575, true); 
+
+fprintf(stdmsg, "Execution of script is done\n");

@@ -1,0 +1,3 @@
+timing_record: timing_name=(null) component_type=ini subsystem=1 processor=0 processor_type=NOVACOR clock_index=1 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=986
+timing_record: timing_name=(null) component_type=eta subsystem=1 processor=0 processor_type=NOVACOR clock_index=6 enabled=false use=CTLS lf=-1.000000 logical_proc=1 uniqueID=987
+timing_record: timing_name=CONTROL_GROUP_1 component_type=CONTROL_GROUP_1 subsystem=1 processor=0 processor_type=NOVACOR clock_index=7 enabled=true use=CTLS lf=0.000000

@@ -1,0 +1,34 @@
+
+  Subsystem Number 1 
+  ********************
+  ********************
+
+       Flag T0
+       *******
+
+       Flag T1
+       *******
+
+       Flag T2
+       *******
+           1  XXX    Local     SS1  named_signal_prc  " A1" from core  1  
+           2  XXX    Local     SS1  named_signal_prc  " A2" from core  1  
+           3  XXX    Local     SS1  named_signal_prc  " A3" from core  1  
+           4  XXX    Local     SS1  named_signal_prc  " A4" from core  1  
+           5  XXX    Local     SS1  named_signal_prc  " A5" from core  1  
+           6  XXX    Local     SS1  named_signal_prc  " A6" from core  1  
+           7  XXX    Local     SS1  named_signal_prc  " A7" from core  1  
+           8  XXX    Local     SS1  named_signal_prc  " A8" from core  1  
+           9  XXX    Local     SS1  named_signal_prc  " A9" from core  1  
+          10  XXX    Local     SS1  named_signal_prc  "A10" from core  1  
+          11  XXX    Local     SS1  named_signal_prc  "A11" from core  1  
+          12  XXX    Local     SS1  named_signal_prc  "A12" from core  1  
+          13  XXX    Local     SS1  named_signal_prc  "A13" from core  1  
+          14  XXX    Local     SS1  named_signal_prc  "A14" from core  1  
+          15  XXX    Local     SS1  named_signal_prc  "A15" from core  1  
+          16  XXX    Local     SS1  named_signal_prc  "A16" from core  1  
+          17  XXX    Local     SS1  named_signal_prc  "A17" from core  1  
+          18  XXX    Local     SS1  named_signal_prc  "A18" from core  1  
+          19  XXX    Local     SS1  named_signal_prc  "A19" from core  1  
+          20  XXX    Local     SS1  named_signal_prc  "A20" from core  1  
+          21  XXX    Local     SS1  named_signal_prc  "xw1" from core  1  
