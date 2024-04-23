@@ -1,0 +1,84 @@
+//	Local Variables:
+
+
+int i,U,j,Du,count,duValue;
+float c,temp,x;
+
+//**************************************************************************
+//	Initialization:
+//**************************************************************************
+
+// U ampli and Du rate number 
+U = 2; 
+Du = 2;
+
+// x reset value and c is time step
+c=0.3;
+x = 6.3;
+temp = x;
+count = 1;
+duValue =20;
+
+//**************************************************************************
+//	Main Program:
+//**************************************************************************
+
+
+//	Start the simulation:
+
+//	For all the rows of data:
+for (i = 1; i <= Du; i++){
+for (j = 1; j <= U; j++){
+
+SetSlider "Subsystem #2 : CTLs : Inputs : U_OL_lim" = temp;
+temp = temp+c;
+SetSlider "Subsystem #2 : CTLs : Inputs : DU_OL_lim" = duValue;
+
+//Print case number in the "Message Area" of Runtime
+fprintf(stdmsg,"Case Number %d\n",count);
+SetPlotSeconds 0.1,1,10;
+SUSPEND 1.532;
+UpdatePlots;
+SetSwitch "WT_CON" = 1;
+SetSwitch "MMC_Controller_change" = 1;
+UpdatePlots;
+SetPlotSeconds 0.1,1,10;
+SetSlider "Subsystem #2 : CTLs : Inputs : id_3" = 0.0;
+SetSlider "Subsystem #2 : CTLs : Inputs : Scale1" = 173.0;
+
+//	Start the simulation:
+Start;
+MasterPlotLockState = 1;
+PushButton "Subsystem #2 : CTLs : Inputs : CLOSEALLD";
+ReleaseButton "Subsystem #2 : CTLs : Inputs : CLOSEALLD";
+PushButton "Subsystem #2 : CTLs : Inputs : CLOSEALLD_12";
+ReleaseButton "Subsystem #2 : CTLs : Inputs : CLOSEALLD_12";
+PushButton "Subsystem #2 : CTLs : Inputs : Start";
+ReleaseButton "Subsystem #2 : CTLs : Inputs : Start";
+SetSlider "Subsystem #2 : CTLs : Inputs : id_3" = 0.5;
+PushButton "Subsystem #2 : CTLs : Inputs : DBlk";
+ReleaseButton "Subsystem #2 : CTLs : Inputs : DBlk";
+SUSPEND 10;
+
+MasterPlotLockState = 0;
+SetPlotSeconds 2.0,1,10;
+
+
+//Apply three phase AC fault at MMC 1:
+SetDial "Subsystem #2 : CTLs : Inputs : DIAL1" = 7;
+PushButton "Subsystem #2 : CTLs : Inputs : ACFAULT";
+ReleaseButton "Subsystem #2 : CTLs : Inputs : ACFAULT";
+Wait 1.0;
+//Save plot data for resulting node voltages after the fault
+fprintf(stdmsg,"Saving plot data for Case Number %d\n",count);
+SavePlotToCSV "General plots","C:\PhD\2021-2020\June\comparing_FX_UCM_R14\MPCVdcPQ_MMCsC"::itoa(count)::".csv";
+Stop;
+count = count+1;
+} 
+duValue = duValue+5;
+j =1;
+temp = x;
+}
+//Stop the simulation:
+
+Stop;

@@ -1,0 +1,32 @@
+Conversion log for C:\Users\adshetgaonkar\Documents\RSCAD\RTDS_USER_FX\fileman\Git_folder\IEEE_IJPEST_4_2WT_MTDC\MMC test system_MPC_approchV14T_GTFPGA_GTFPGA_windv3_2_sub_DCCB_v2_PIv2.dft
+
+Component MPC_ap1_CCSCv15.def could not be located
+Unable to locate component definition file for MPC_ap1_CCSCv15.def.
+Component MPC_MMC_ap_v1v2.def could not be located
+Unable to locate component definition file for MPC_MMC_ap_v1v2.def.
+Component MPC_MMC_stable.def could not be located
+Unable to locate component definition file for MPC_MMC_stable.def.
+Component MPC_MMC_hopeV12.def could not be located
+Unable to locate component definition file for MPC_MMC_hopeV12.def.
+Component MPC_DC_con_V4V2.def could not be located
+Unable to locate component definition file for MPC_DC_con_V4V2.def.
+Component MPC_DC_con_V4V1.def could not be located
+Unable to locate component definition file for MPC_DC_con_V4V1.def.
+Component MPC_DC_conV4V3.def could not be located
+Unable to locate component definition file for MPC_DC_conV4V3.def.
+Component MPC_DC_con_V4V4.def could not be located
+Unable to locate component definition file for MPC_DC_con_V4V4.def.
+Component MPC_DCconV4V5V2.def could not be located
+Unable to locate component definition file for MPC_DCconV4V5V2.def.
+Component MPC_DCconV4V5V3.def could not be located
+Unable to locate component definition file for MPC_DCconV4V5V3.def.
+Component MPC_DCconV4V5V4.def could not be located
+Unable to locate component definition file for MPC_DCconV4V5V4.def.
+Component VDC_4Tcon.def could not be located
+Unable to locate component definition file for VDC_4Tcon.def.
+Component MPC_GF_V1V1.def could not be located
+Unable to locate component definition file for MPC_GF_V1V1.def.
+Component MPC_DCconV4V5V1.def could not be located
+Unable to locate component definition file for MPC_DCconV4V5V1.def.
+Component MPC_GF_V1V1.def could not be located
+Unable to locate component definition file for MPC_GF_V1V1.def.

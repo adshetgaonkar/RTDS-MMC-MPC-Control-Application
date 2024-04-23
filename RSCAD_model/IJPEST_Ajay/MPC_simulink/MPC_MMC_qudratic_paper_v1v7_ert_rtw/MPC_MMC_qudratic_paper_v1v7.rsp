@@ -1,0 +1,6 @@
+MPC_MMC_qudratic_paper_v1v7.obj
+MPC_MMC_qudratic_paper_v1v7_data.obj
+ert_main.obj
+rtGetInf.obj
+rtGetNaN.obj
+rt_nonfinite.obj

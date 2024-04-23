@@ -1,0 +1,108 @@
+MESSAGES:
+
+Compiling C:\Users\adshetgaonkar\Documents\RSCAD\RTDS_USER_FX\fileman\Git_folder\IEEE_IJPEST_4_2WT_MTDC\MMC test system_MPC_approchV14T_GTFPGA_GTFPGA_windv3_2_sub_DCCB_v2_PIv2 for RTDS rack 8...
+Nodes and Wires...
+
+RTDSPC version = 1.3
+=======================
+
+Using configuration file: C:\Users\adshetgaonkar\Documents\RSCAD\HDWR\config_file_03.txt
+800) temp11,temp12,temp21,temp22: 1.000000 0.000000 1.000000 0.000000 
+informational: No need for swaping main network components.
+Informational:
+	 For subsystem 1 all T2 IRC output data for cross chassis communication will be sent by core 1
+Informational:
+	 For subsystem 2 all T2 IRC output data for cross chassis communication will be sent by core 1
+
+WARNING-1 : VSC_Bridge 'MMC1' has a small timestep of 3695 nanoseconds.
+This is greater than 3000 nanoseconds.
+Small time-steps of this size and larger will
+begin to significantly reduce the ratio of the
+OFF impedance over the ON impedance of valves
+that are represented as small inductors when ON
+and small capacitors when OFF.
+Such valves are NOT present in the low-loss bridges
+or the chain-link convertor models.
+Please watch for difficulties due to this situation
+and reduce the loading on this VSC_Bridge if required.
+Severity = 2,  Subsystem Number = 2 
+
+
+WARNING-2 : VSC_Bridge 'MMC4' has a small timestep of 3035 nanoseconds.
+This is greater than 3000 nanoseconds.
+Small time-steps of this size and larger will
+begin to significantly reduce the ratio of the
+OFF impedance over the ON impedance of valves
+that are represented as small inductors when ON
+and small capacitors when OFF.
+Such valves are NOT present in the low-loss bridges
+or the chain-link convertor models.
+Please watch for difficulties due to this situation
+and reduce the loading on this VSC_Bridge if required.
+Severity = 2,  Subsystem Number = 2 
+
+
+WARNING-3 : VSC_Bridge 'MMC2' has a small timestep of 3035 nanoseconds.
+This is greater than 3000 nanoseconds.
+Small time-steps of this size and larger will
+begin to significantly reduce the ratio of the
+OFF impedance over the ON impedance of valves
+that are represented as small inductors when ON
+and small capacitors when OFF.
+Such valves are NOT present in the low-loss bridges
+or the chain-link convertor models.
+Please watch for difficulties due to this situation
+and reduce the loading on this VSC_Bridge if required.
+Severity = 2,  Subsystem Number = 2 
+
+
+WARNING-4 : Warning was reported In sdelay component .c file. 
+ Sampled Delay Function delay time set to 1 time-step.
+ Specified delay time of 0.000085 seconds is too small.
+Severity = 2,  Subsystem Number = 2 
+
+
+WARNING-5 : Warning was reported In sdelay component .c file. 
+ Sampled Delay Function delay time set to 1 time-step.
+ Specified delay time of 0.000085 seconds is too small.
+Severity = 2,  Subsystem Number = 2 
+
+
+WARNING-6 : Warning was reported In sdelay component .c file. 
+ Sampled Delay Function delay time set to 1 time-step.
+ Specified delay time of 0.000085 seconds is too small.
+Severity = 2,  Subsystem Number = 2 
+
+
+WARNING-7 : Warning was reported In sdelay component .c file. 
+ Sampled Delay Function delay time set to 1 time-step.
+ Specified delay time of 0.000085 seconds is too small.
+Severity = 2,  Subsystem Number = 2 
+
+
+WARNING-8 : Warning was reported In sdelay component .c file. 
+ Sampled Delay Function delay time set to 1 time-step.
+ Specified delay time of 0.000085 seconds is too small.
+Severity = 2,  Subsystem Number = 2 
+
+
+WARNING-9 : Warning was reported In sdelay component .c file. 
+ Sampled Delay Function delay time set to 1 time-step.
+ Specified delay time of 0.000085 seconds is too small.
+Severity = 2,  Subsystem Number = 2 
+
+
+WARNING-10 : Warning was reported In sdelay component .c file. 
+ Sampled Delay Function delay time set to 1 time-step.
+ Specified delay time of 0.000085 seconds is too small.
+Severity = 2,  Subsystem Number = 2 
+
+
+WARNING-11 : Warning was reported In sdelay component .c file. 
+ Sampled Delay Function delay time set to 1 time-step.
+ Specified delay time of 0.000085 seconds is too small.
+Severity = 2,  Subsystem Number = 2 
+
+End of process. Peak memory usage = 42614784 bytes
+
+Compile completed with warnings.

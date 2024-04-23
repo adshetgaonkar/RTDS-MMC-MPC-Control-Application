@@ -1,0 +1,6 @@
+Traditional_MPC_MMC_qudratic.obj
+Traditional_MPC_MMC_qudratic_data.obj
+ert_main.obj
+rtGetInf.obj
+rtGetNaN.obj
+rt_nonfinite.obj

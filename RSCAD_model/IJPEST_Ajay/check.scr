@@ -1,0 +1,4 @@
+SUSPEND 3.623;
+MasterPlotLockState = 1;
+SUSPEND 3.449;
+MasterPlotLockState = 0;
