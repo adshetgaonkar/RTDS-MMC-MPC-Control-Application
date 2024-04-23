@@ -1,2 +1,0 @@
-  VDC_cont_4T_V3.c
-

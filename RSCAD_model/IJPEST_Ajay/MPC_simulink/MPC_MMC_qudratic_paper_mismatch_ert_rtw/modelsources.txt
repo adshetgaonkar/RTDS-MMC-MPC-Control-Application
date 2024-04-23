@@ -1,2 +1,0 @@
-  MPC_MMC_qudratic_paper_mismatch.c
-
